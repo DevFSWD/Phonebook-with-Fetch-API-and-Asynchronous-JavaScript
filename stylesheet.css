@@ -1,0 +1,64 @@
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: 700;
+  color: #343a40;
+}
+
+.btn-space {
+  margin-right: 10px;
+}
+
+.btn-sm {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+}
+
+input.form-control {
+  border-radius: 0.5rem;
+}
+
+.table {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #dee2e6;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+#deleted-section {
+  padding: 15px;
+  border: 1px dashed #dc3545;
+  background-color: #fff3f3;
+  border-radius: 8px;
+}
+
+.list-group-item-danger {
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+#deleted-section {
+  transition: all 0.3s ease;
+}
+
+.list-group-item {
+  transition: background-color 0.2s ease;
+}
+
+@media (max-width: 576px) {
+  .btn-space {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
